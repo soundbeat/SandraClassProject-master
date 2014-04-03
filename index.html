@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Me</title>
+    <link href="assets/css/styles.css" rel="stylesheet" media="all"/>
+    <style>
+        header li{
+            margin: 5px;
+            float: left;
+            padding: 20px;
+
+        }
+        div.cycle-slideshow{
+             position: relative;
+             direction: ltr;
+             margin-left: 100px;
+         }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sandra Jarlstål</h1>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio/index.html">Portfolio</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</header>
+
+<div id="content">
+    <section class="first">
+            <div class="cycle-slideshow" data-cycle-fx=scrollHorz data-cycle-timeout=2000 >
+                <!-- empty element for overlay -->
+                <div class="cycle-overlay"></div>
+                <img src="assets/images/anton%20centralstation.jpg" data-cycle-title="Spring" data-cycle-desc="Sonnenberg Gardens">
+                <img src="assets/images/halvt%20smultron%20hand.jpg" data-cycle-title="Redwoods" data-cycle-desc="Muir Woods National Monument">
+                <img src="assets/images/time.jpg" data-cycle-title="Angel Island" data-cycle-desc="San Franscisco Bay">
+                <img src="assets/images/soluppgang%20tunisien%20gul.jpg" data-cycle-title="Raquette Lake" data-cycle-desc="Adirondack State Park">
+            </div>
+</section>
+</div>
+            <script src="assets/js/jquery-1.11.0.min.js"></script>
+            <script src="assets/js/jquery.cycle2.min.js"></script>
+
+
+</body>
+</html>

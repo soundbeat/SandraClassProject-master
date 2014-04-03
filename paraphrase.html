@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+
+</head>
+<body>
+<link href="assets/css/styles.css" rel="stylesheet" media="all"/>
+<div id="header">
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio/index.html">Portfolio</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</div>
+
+<h1>Paraphrase</h1>
+
+
+<div id="content">
+
+    <section class="first">
+
+        <h3>Paraphrasing is restating someone elses work...</h3>
+
+        <p>
+            <strong>.. giving the work your own interpretation</strong>. Many artists do it to tribute the original artist,
+            and at the same time putting their own spin on it.
+            My paraphrase is of Sally Mann's photo "Girl in grass". The photo was taken in 2010, during my Photo course.
+            Model: Rebecca Carlvist
+
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel urna eu augue
+            sollicitudin interdum sed non libero. Vestibulum facilisis lacus sit amet mi egestas,
+            eu blandit neque imperdiet. Vestibulum ante ipsum primis in faucibus orci luctus et
+            ultrices posuere cubilia Curae; Sed ac nisl rutrum neque iaculis elementum. Cras dui
+            massa, tempor id odio sed, faucibus adipiscing eros. Maecenas a suscipit eros, vitae
+            accumsan dolor. Duis pulvinar purus urna, ac consequat diam consectetur a.
+
+            <strong>Original picture by Sally Mann:</strong>
+
+
+        </p>
+
+
+    </section>
+
+    <script type="text/javascript" src="assets/js/jquery-1.11.0.min.js"></script>
+
+    <!-- Add nanoGALLERY plugin files (MANDATORY) -->
+    <link href="assets/css/nanogallery.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="assets/js/jquery.nanogallery.js"></script>
+
+
+    <script>
+        $('#elt').nanoGallery({
+            'kind':'picasa',
+            'userID':'cbrisbois@gmail.com'
+        });
+    </script>
+
+
+    <div id="nanoGallery3">
+        <a href="assets/images/sally%20mann%20parafras%20rebecca.jpg" data-ngthumb="assets/images/sally%20mann%20parafras%20rebecca.jpg" data-ngdesc="Rebecca Carlqvist">Paraphrase 'Girl in grass'</a>
+        <a href="assets/images/rebecca%20sally%20mann.jpg" data-ngthumb="assets/images/rebecca%20sally%20mann.jpg" data-ngdesc="Rebecca Carlqvist">Paraphrase 'Girl in grass'</a>
+        <a href="assets/images/mann-photo-002.jpg" data-ngthumb="assets/images/mann-photo-002.jpg" data-ngdesc="Sally Mann">Girl in grass</a>
+
+    </div>
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            jQuery("#nanoGallery3").nanoGallery();
+        });
+
+    </script>
+
+
+</div>
+
+</body>
+</html>
