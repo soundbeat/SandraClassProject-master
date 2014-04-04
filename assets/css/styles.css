@@ -106,6 +106,8 @@ footer ul + ul li {
     width: 290px;
     float: left;
     padding: 58px 20px;
+      background-color: #7f7f7f;
+      margin-left: 30px;
   }
   header nav {
     width: 420px;
